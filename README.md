@@ -13,7 +13,7 @@ It allows users to add, search, edit, delete, list, and save contacts with built
 - 📜 **List Contacts** – Display all stored contacts  
 - 💾 **Save Contacts** – Persist contacts to `Addressbookcontacts.csv`  
 - 📂 **Load Contacts** – Automatically loads saved contacts at startup  
-- UI **User Interface++ - Uniform themed statements for ease of readability
+- UI **User Interface** - Uniform themed statements for ease of readability
 ---
 
 ## 🛡️ Input Validation
