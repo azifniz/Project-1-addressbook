@@ -19,7 +19,7 @@ It allows users to add, search, edit, delete, list, and save contacts with built
 ## 🛡️ Input Validation
 - **Name** → Only alphabets and spaces, no leading spaces, cannot be empty  
 - **Phone** → Exactly 10 digits, only numbers, no duplicates  
-- **Email** → Must end with a valid domain (default: `@gmail.com`, `@yahoo.com`, `@outlook.com`)  
+- **Email** → Must end with a valid domain (default: `@gmail.com`)  
   - Local part allows: letters, numbers, `_`, `.`  
   - No duplicate emails allowed  
 
