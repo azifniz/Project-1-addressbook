@@ -172,7 +172,7 @@ void editContact(contact contacts[], int count)
             char newName[50];
             do 
             {
-                printf("\033[1;36mEnter new name: \033[0m");
+                printf("\n\033[1;36mEnter new name: \033[0m");
                 scanf("%[^\n]", newName);
                 while(getchar()!='\n');
             } while (!validateName(newName));
@@ -202,7 +202,7 @@ void editContact(contact contacts[], int count)
             char newPhone[11];
             do 
             {
-                printf("\033[1;36mEnter new phone number : \033[0m");
+                printf("\n\033[1;36mEnter new phone number : \033[0m");
                 scanf("%10s", newPhone);
                 while(getchar()!='\n');
             } while (!validatePhone(newPhone, contacts, count));
@@ -234,7 +234,7 @@ void editContact(contact contacts[], int count)
             char newEmail[30];
             do 
             {
-                printf("\033[1;36mEnter new email: \033[0m");
+                printf("\n\033[1;36mEnter new email: \033[0m");
                 scanf(" %[^\n]", newEmail);
             } while (!validateEmail(newEmail, contacts, count));
             strcpy(contacts[index].email, newEmail);
@@ -367,7 +367,7 @@ void listContacts(contact contacts[], int count)
     printf("\n\033[1;37m═══════════════════════════\033[0m \033[1;92mCONTACT LIST \033[0m\033[1;37m═══════════════════════════\033[0m\n");
     for (int i = 0; i < count; i++)                               // loop to print all contacts
     {
-        printf("\n\033[38;2;255;180;50m%d. %s | %s | %s\033[0m\n", i + 1, contacts[i].name, contacts[i].phone, contacts[i].email);
+        printf("\n\033[38;2;255;180;50m%3d. %-20s | %-3s | %s\033[0m\n", i + 1, contacts[i].name, contacts[i].phone, contacts[i].email);
     }
     printf("\n\033[1;37m════════════════════════════════════════════════════════════════════\033[0m\n");
 }
