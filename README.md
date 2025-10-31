@@ -3,7 +3,7 @@
 A simple **Address Book Management System** built in C.  
 It allows users to add, search, edit, delete, list, and save contacts with built-in validation for input fields.  
 
----
+
 
 ## ✨ Features
 - ➕ **Add Contact** – Create a new contact with name, phone, and email  
@@ -14,7 +14,7 @@ It allows users to add, search, edit, delete, list, and save contacts with built
 - 💾 **Save Contacts** – Persist contacts to `Addressbookcontacts.csv`  
 - 📂 **Load Contacts** – Automatically loads saved contacts at startup  
 - UI **User Interface** - Uniform themed statements for ease of readability
----
+
 
 ## 🛡️ Input Validation
 - **Name** → Only alphabets and spaces, no leading spaces, cannot be empty  
